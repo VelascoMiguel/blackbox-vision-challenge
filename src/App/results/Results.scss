@@ -1,0 +1,34 @@
+$primary-color: #4a90e2;
+$background-color: #f9f9f9;
+$text-color: #333;
+$border-radius: 8px;
+
+.results-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: $background-color;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  color: $text-color;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+    &:last-child {
+      font-weight: bold;
+      color: $primary-color;
+    }
+  }
+}
+
